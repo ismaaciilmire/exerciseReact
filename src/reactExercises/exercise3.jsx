@@ -1,4 +1,4 @@
-const UserCard = ({UserName,Email}) => {
+const UserCard = ({ UserName, Email }) => {
     return (
         <>
             <h1>enter your Username, {UserName}</h1>
@@ -7,4 +7,4 @@ const UserCard = ({UserName,Email}) => {
     )
 }
 
-export default  UserCard;
+export default UserCard;
