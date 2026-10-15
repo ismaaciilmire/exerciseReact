@@ -2,21 +2,28 @@ import Exercise1 from "./reactExercises/Exercise1"
 import { Exercise2Blog } from "./reactExercises/Exercise2Blog"
 import UserCard from "./reactExercises/exercise3";
 import Exercise4 from"./reactExercises/Exercise4"
+import Exercise5 from"./reactExercises/Exercise5"
+import Exercise6 from "./reactExercises/Exercise6"
 import { useState } from "react";
+
 
 
 
 function App() {
 
    const [isVisible,setIsVisible] = useState(true)
+  
 
    const togable=()=>{
     setIsVisible(!isVisible)
    }
 
+
 return (
     <>
-
+    
+        <Exercise6/>
+        <Exercise5/>
         <Exercise1 />
         <Exercise4/>
         <Exercise2Blog />
