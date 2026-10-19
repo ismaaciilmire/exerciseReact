@@ -6,7 +6,9 @@ import Exercise5 from"./reactExercises/Exercise5"
 import Exercise6 from "./reactExercises/Exercise6"
 import Exercise7 from "./reactExercises/Exercise7"
 import Exercise8 from "./reactExercises/Exercise8"
+import Exercise9 from "./reactExercises/Exercise9"
 import { useState } from "react";
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
 
 return (
     <>
+        <Exercise9/>
         <Exercise8/>
         <Exercise7/>
         <Exercise6/>

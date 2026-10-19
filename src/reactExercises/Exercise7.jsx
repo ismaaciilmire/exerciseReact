@@ -14,6 +14,7 @@ const MouseMove=()=>{
             window.removeEventListener("mousemove",mouseHandle)
         };
         
+        
     },[])
 
     return(
